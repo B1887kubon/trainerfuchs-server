@@ -5,10 +5,6 @@ const CardSchema = new mongoose.Schema({
     type: mongoose.SchemaTypes.String,
     default: 'NoName',
   },
-  id: {
-    type: mongoose.SchemaTypes.String,
-    default: '',
-  },
   surname: {
     type: mongoose.SchemaTypes.String,
     default: 'NoName',
